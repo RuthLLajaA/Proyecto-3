@@ -1,8 +1,9 @@
-# Proyecto - Página web
+# Proyecto - POKEMÓN UNIVERSE💫
 ## Problemática:
 El público al que queremos llegar es a las personas que no tiene conocimiento de este dibujo que tienen ya varios años en las pantallas.
 ## Usuarios:
 Personas en general, hombres y mujeres
+[HU](https://jamboard.google.com/d/1Iig8PPi7saGEg7R6EBOh_55Gxy-rqFTsFO2kZ4a8duI/edit?usp=sharing)
 ## Funcionalidad 🖥️:
 * En nuestro proyecto lo primero que se puede observar es un apartado de bienvenida y un contenedor de registro para ser parte de la comunidad de pokemón.
 * Se observa un menú didactico en donde se observa diversas opciones para conocer.
