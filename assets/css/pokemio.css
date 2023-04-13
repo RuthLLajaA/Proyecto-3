@@ -1,0 +1,295 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: white;
+}
+
+.principal{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.barra de navegación{
+  width:1200px;
+  height:75px;
+  margin: auto;
+
+}
+.icono{
+  width: 200px;
+  float: left;
+  height: 70px;
+  color: white;
+}
+.title{
+  color: transparent;
+}
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul{
+  float:left;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+  color: yellow;
+}
+.buscar{
+  width: 330px;
+  float:left;
+  margin-left: 372px;
+}
+
+.bus:focus{
+   outline: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    color:#333;
+        box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+   
+    background-color: #f2f2f2;
+    height: 90px;
+    padding: 10px 0;
+    
+}
+
+nav {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100px;
+    
+}
+
+.lang-menu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+}
+.lang-menu .selected-lang {
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+  text-align: center;
+}
+.lang-menu .selected-lang:before {
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    background-image: url(../img/220px-Flag_of_the_First_Spanish_Republic.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 2;
+    right: 0px;
+    width: 205px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 205px;
+}
+
+.lang-menu ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+    color:black;
+}
+
+.lang-menu ul li:hover {
+    background-color: #f2f2f2;
+    width: 120px;
+}
+
+.lang-menu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.de:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/640px-Flag_of_Germany.svg.png);
+  color:black;
+}
+
+.en:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png);
+  color:black;
+}
+.fr:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/200px-Flag_of_France.svg.png);
+  color:black;
+}
+
+.ar:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png);
+  color:black;
+}
+
+
+.lang-menu:hover ul {
+    display: block;
+}
+@font-face {
+    font-family: "Pokemon Holow";
+    src: url(../fonts/Pokemon\ Hollow.ttf);
+
+}
+@font-face {
+    font-family: "Pokemon Solid";
+    src: url(../fonts/Pokemon\ Solid.ttf);
+
+}
+h4{
+    font-family: "Pokemon Solid";
+    font-size: 3rem;
+    text-align: center;
+    -webkit-text-stroke: 2px rgb(28, 28, 170);
+    color: yellow;
+}
+
+.btnb{
+        background-color: rgb(232, 233, 182);
+        padding: 10px;
+        border: 1px solid white;
+        font-family: 'Gabriela';
+        border-radius: 2px;
+        border: 2px;
+        padding: 10px;
+        margin: 10px;
+}
+.btnb:hover{
+        background-color: rgb(56, 66, 211);
+        padding: 10px;
+}
+.btnl{
+    background-color: rgb(232, 233, 182);
+    padding: 10px;
+    border: 1px solid white;
+    font-family: 'Gabriela';
+    border-radius: 2px;
+    border: 2px;
+    padding: 10px;
+    margin: 10px;
+}
+.btnl:hover{
+    background-color: rgb(255, 252, 78);
+    padding: 10px;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    font-family: 'Gabriela';
+    background-color:floralwhite;
+    border: 1px solid blue;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke-card{
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    align-items: scenter; 
+    margin: 40px;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/503/189/157/pokemon-video-games-pixel-art-pixels-wallpaper-preview.jpg);
+    font-family: 'Times New Roman';
+    margin-left:20%;
+    margin-right: 20%;
+    margin-bottom: -500%;
+    box-shadow: inset 0 0 10px #a8ba21, 0 0 40px #e9f53d;
+}
+.poke-img{
+    width: 100%;
+    height: 80%;
+}
+.poke-tipo{
+    background-color: greenyellow;
+    border: 2px;
+}
+.poke-peso{
+    background-color: skyblue;
+}
+body{
+    background-image: url(https://www.latribunadetoledo.es/media/IMG/2022/D117C7FD-F090-02F2-5BEDF81AAA807493.JPG);
+    text-align: center;
+    background-size: cover;
+}
+.pokemon{
+    margin: 20px;
+    width: 100%;
+    margin-left:30%;
+    margin-right: 20%;
+}

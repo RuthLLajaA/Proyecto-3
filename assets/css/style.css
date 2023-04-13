@@ -1,0 +1,403 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: white;
+}
+
+.principal{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),  url(../img/Pokemon-Universe.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 560px;
+}
+.barra de navegación{
+  width:1200px;
+  height:75px;
+  margin: auto;
+
+}
+.icono{
+  width: 200px;
+  float: left;
+  height: 70px;
+  color: white;
+}
+.title{
+  color: transparent;
+}
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul{
+  float:left;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+  color: yellow;
+}
+.buscar{
+  width: 330px;
+  float:left;
+  margin-left: 372px;
+}
+.bus{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border:1px solid black;
+  margin-top: 13px;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 10px;
+}
+.btnbuscar{
+  width:70px;
+  height: 40px;
+  background: #1a2537;
+  border:2px solid yellow;
+  margin-top: 13px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    color:#333;
+        box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+   
+    background-color: #f2f2f2;
+    height: 90px;
+    padding: 10px 0;
+    
+}
+
+nav {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100px;
+    
+}
+
+.lang-menu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+}
+.lang-menu .selected-lang {
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+  text-align: center;
+}
+.lang-menu .selected-lang:before {
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    background-image: url(../img/220px-Flag_of_the_First_Spanish_Republic.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 2;
+    right: 0px;
+    width: 205px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 205px;
+}
+
+.lang-menu ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+    color:black;
+}
+
+.lang-menu ul li:hover {
+    background-color: #f2f2f2;
+    width: 120px;
+}
+
+.lang-menu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.de:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/640px-Flag_of_Germany.svg.png);
+  color:black;
+}
+
+.en:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png);
+  color:black;
+}
+.fr:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/200px-Flag_of_France.svg.png);
+  color:black;
+}
+
+.ar:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png);
+  color:black;
+}
+
+
+.lang-menu:hover ul {
+    display: block;
+}
+
+
+.contenido{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: white;
+  position: relative;
+}
+.contenido .parrafo{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  font-family: 'Balsamiq Sans';
+}
+.contenido h2{
+  font-family: 'Balsamiq Sans';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+.contenido .poke{
+font-family: 'Alfa Slab One';
+  color: white; 
+  text-align: left;
+}
+.contenido .join{
+  width: 160px;
+  height:40px;
+  background: yellow;
+  border:none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: .4s ease;
+}
+.join:hover{
+  background: blue;
+}
+.contenido .join a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.contenido span{
+  color: yelow;
+  font-size: 50px;
+  font-family: 'Balsamiq Sans';
+}
+
+.contenedor{
+    width: 290px;
+    height: 399px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 820px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+.contenedor .formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+ .form h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 16px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+.txt-form{
+    text-align: center;
+  
+}
+.link{
+    text-decoration: none;
+      color:yellow;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+  text-align: center;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-right: 24px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+@media screen and (max-width:1210px){
+  nav{
+    width:100%;
+    height: 100px;
+    padding: 0 20px;
+  }
+  nav .logo .lang-menu{
+    width:100%;
+    height: 100px;
+  }
+  .lang-menu .selected-lang{
+    margin-left: 30px;
+  }
+  ul{
+    margin-left: 30px;
+  }
+  ul li{
+    margin-left:60px ;
+  }
+  ul li a{
+    font-size: 1.6vw;
+  }
+  .bus{
+    height: 40px;
+    width:190px;
+    font-size: 14px;
+  }
+  .btnbuscar{
+    height: 40px;
+    width: 80px;
+  }
+  .contenido{
+    width: 100%;
+  }
+  .content .parrafo{
+    width:90%;
+    font-size: 1.5vw;
+  }
+  .contenido . oin
+}

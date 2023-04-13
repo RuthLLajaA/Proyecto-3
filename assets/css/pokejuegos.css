@@ -1,0 +1,270 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: white;
+}
+video{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index:-1;
+  
+}
+.principal{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.barra de navegación{
+  width:1200px;
+  height:75px;
+  margin: auto;
+
+}
+.icono{
+  width: 200px;
+  float: left;
+  height: 70px;
+  color: white;
+}
+.title{
+  color: transparent;
+}
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul{
+  float:left;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+  color: yellow;
+}
+.buscar{
+  width: 330px;
+  float:left;
+  margin-left: 372px;
+}
+.bus{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border:1px solid white;
+  margin-top: 13px;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 10px;
+}
+.btnbuscar{
+  width:70px;
+  height: 40px;
+  background: #1a2537;
+  border:2px solid yellow;
+  margin-top: 13px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    color:#333;
+        box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+   
+    background-color: #f2f2f2;
+    height: 90px;
+    padding: 10px 0;
+    
+}
+
+nav {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100px;
+    
+}
+
+.lang-menu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+}
+.lang-menu .selected-lang {
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+  text-align: center;
+}
+.lang-menu .selected-lang:before {
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    background-image: url(../img/220px-Flag_of_the_First_Spanish_Republic.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 2;
+    right: 0px;
+    width: 205px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 205px;
+}
+
+.lang-menu ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+    color:black;
+}
+
+.lang-menu ul li:hover {
+    background-color: #f2f2f2;
+    width: 120px;
+}
+
+.lang-menu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.de:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/640px-Flag_of_Germany.svg.png);
+  color:black;
+}
+
+.en:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png);
+  color:black;
+}
+.fr:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/200px-Flag_of_France.svg.png);
+  color:black;
+}
+
+.ar:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png);
+  color:black;
+}
+
+
+.lang-menu:hover ul {
+    display: block;
+}
+img{
+    max-width: 100%;
+  align-items: center;
+}
+.blog{
+    padding: 100px 30px;
+}
+.blog h1{
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Alfa Slab One';
+    font-size: 3rem;
+}
+.flex{
+    max-width: 1100px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-child{
+    width: 320px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.info{
+    padding: 15px;
+    background-color: #fff;
+}
+
+.btn-descarga{
+  border-radius: 50px;
+  border-color: white;
+  
+}

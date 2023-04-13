@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>POKEMÓN</title>
+        <link rel="icon" href="pokeball-logo-DC23868CA1-seeklogo.com.png">
+        <link rel="stylesheet" href="assets/css/pokemio.css">
+        <link href='https://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png"
+            alt=""></a>
+      </div>
+      <div class="lang-menu">
+        <div class="selected-lang">
+          Spanish
+        </div>
+        <ul>
+          <li>
+            <a href="#" language="Aleman" class="de">German</a>
+          </li>
+          <li>
+            <a href="" language="English" class="en">English</a>
+          </li>
+          <li>
+            <a href="" language="French" class="fr">French</a>
+          </li>
+          <li>
+            <a href="" language="Spanish" class="ar">Spanish</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="principal">
+    <div class="barra de navegación">
+      <div class="icono">
+        <h1 class="title">PokeMon Universe </h1>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="pokedex.html">PokeDex</a></li>
+          <li><a href="pokejuegos.html">PokeJuegos</a></li>
+          <li><a href="pokenews.html">PokeNews</a></li>
+          <li><a href="pokemio.html">PokeCard</a></li>
+          <li><a href="Estadistica.html">Estadistica</a></li>
+        </ul>
+      </div>
+
+      <br><br><br><br>
+    </div>
+       <div class="container">
+         <h4>Encuentra tu Poke-card</h4>
+        </div>
+         <div>
+         <input class="input" type="text" name="id" id="id" placeholder="Ingresa aqui el (id) o (nombre del pokemon)">
+         <button class="btnb" id="btnBuscar" type="button">Buscar</button>
+         <button class="btnl" id="btnLimpiar" type="button">Limpiar</button>
+        </div>
+        <div class="pokemon" id="container-pokemon">
+            <!--Se colocaran las tarjetas con jquery y jasvascript-->
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="assets/js/pokemio.js"></script>
+        
+    </body>
+</html>

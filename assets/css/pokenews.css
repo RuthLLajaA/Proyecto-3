@@ -1,0 +1,393 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: white;
+}
+
+
+.principal{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/go/pokestop.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 490px;
+}
+.barra de navegación{
+  width:1200px;
+  height:75px;
+  margin: auto;
+
+}
+.icono{
+  width: 200px;
+  float: left;
+  height: 70px;
+  color: white;
+}
+.title{
+  color: transparent;
+}
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul{
+  float:left;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+  color: yellow;
+}
+.buscar{
+  width: 330px;
+  float:left;
+  margin-left: 372px;
+}
+.bus{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border:1px solid white;
+  margin-top: 13px;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 10px;
+}
+.btnbuscar{
+  width:70px;
+  height: 40px;
+  background: #1a2537;
+  border:2px solid yellow;
+  margin-top: 13px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    color:#333;
+        box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+   
+    background-color: #f2f2f2;
+    height: 90px;
+    padding: 10px 0;
+    
+}
+
+nav {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100px;
+    
+}
+
+.lang-menu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+}
+.lang-menu .selected-lang {
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+  text-align: center;
+}
+.lang-menu .selected-lang:before {
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    background-image: url(../img/220px-Flag_of_the_First_Spanish_Republic.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 2;
+    right: 0px;
+    width: 205px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 205px;
+}
+
+.lang-menu ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+    color:black;
+}
+
+.lang-menu ul li:hover {
+    background-color: #f2f2f2;
+    width: 120px;
+}
+
+.lang-menu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.de:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/640px-Flag_of_Germany.svg.png);
+  color:black;
+}
+
+.en:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png);
+  color:black;
+}
+.fr:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/200px-Flag_of_France.svg.png);
+  color:black;
+}
+
+.ar:before {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png);
+  color:black;
+}
+
+
+.lang-menu:hover ul {
+    display: block;
+}
+
+.contenido{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: white;
+  position: relative;
+}
+.contenido .parrafo{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  font-family: 'Balsamiq Sans';
+}
+.contenido h2{
+  font-family: 'Balsamiq Sans';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+.contenido .poke{
+font-family: 'Alfa Slab One';
+  color: white; 
+  text-align: left;
+}
+.contenido .join{
+  width: 160px;
+  height:40px;
+  background: yellow;
+  border:none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: .4s ease;
+}
+.join:hover{
+  background: white;
+}
+.contenido .join a{
+  text-decoration: none;
+  color:black;
+  transition: .3s ease;
+}
+.contenido span{
+  color: yelow;
+  font-size: 50px;
+  font-family: 'Balsamiq Sans';
+}
+.galeria{
+    font-family: 'Balsamiq Sans';
+}
+
+.galeria h1{
+    text-align: center;
+    margin:20px 0 15px 0;
+    font-weight: 300;
+}
+
+.linea{
+    border-top: 5px solid #0077C0;
+    margin-bottom: 40px;
+}
+
+.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:3px;
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height:250px;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+}
+.imagen img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:rgba(0, 118, 192, 0.781) ;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.overlay h2{
+    color: #fff;
+    font-weight: 300;
+    font-size:25px;
+    position: absolute;
+    top: 30%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+      color: #1a2537;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+}
+.galeria h1{
+  font-family: 'Alfa Slab One';
+  font-size: 40px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 1px;
+  color: #1a2537;
+}
+.txtnews{
+  margin-top: 50%;
+  text-align: center;
+  font-family: 'Balsamiq Sans';
+}
+.join2{
+  width: 160px;
+  height:40px;
+  background: yellow;
+  border:none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: .4s ease;
+}
+.join2:hover{
+  background: #1414f5;
+}
