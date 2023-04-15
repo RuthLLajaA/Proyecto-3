@@ -17,3 +17,4 @@ Personas en general, hombres y mujeres
 * Conocer la historia y tipos de pokemones que existen.
 ## Enlace Página web
 [Pokemón Universe](https://ruthllajaa.github.io/Proyecto-3/)
+[Pokemón Universe - Replit](https://pokemon-universe.camila-nadinena.repl.co/index.html)
