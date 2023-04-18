@@ -23,7 +23,7 @@ Personas en general, hombres y mujeres
     -   [Html](#Html)
     -   [Css](#css)
     -   [JavaScript](#JavaScript)
-    -   [API con JSON](#API con JSON)
+    -   [API con JSON](#APIconJSON)
     -   [Chart.js](#Chart.js)
 ## Enlace Página web
 * [Pokemón Universe - GitHub Pages](https://ruthllajaa.github.io/Proyecto-3/)
