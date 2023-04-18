@@ -1,9 +1,9 @@
 # Proyecto - POKEMÓN UNIVERSE💫
 ## Problemática:
 El público al que queremos llegar es a las personas que no tiene conocimiento de este dibujo que tienen ya varios años en las pantallas, además de aquellos que aveces no tienen acceso a una información presonalizada sobre la franquisia y desean sumar sus conocimientos y disfrutar un poco navegando por las novedades de la página web dirigida a esta franquisia.
-## Usuarios:
-Personas en general, hombres y mujeres.
 ## Historia de usuarios:
+* Personas en general, hombres y mujeres.
+
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Historia%20de%20usuarios/1.png)
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Historia%20de%20usuarios/2.png)
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Historia%20de%20usuarios/3.png)
