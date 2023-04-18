@@ -3,7 +3,10 @@
 El público al que queremos llegar es a las personas que no tiene conocimiento de este dibujo que tienen ya varios años en las pantallas.
 ## Usuarios:
 Personas en general, hombres y mujeres
-* [Jamboard](https://jamboard.google.com/d/1Iig8PPi7saGEg7R6EBOh_55Gxy-rqFTsFO2kZ4a8duI/edit?usp=sharing)
+## Historia de usuarios:
+![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Historia%20de%20usuarios/1.png)
+![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Historia%20de%20usuarios/2.png)
+![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Historia%20de%20usuarios/3.png)
 ## Funcionalidad 🖥️:
 * En nuestro proyecto lo primero que se puede observar es un apartado de bienvenida y un contenedor de registro para ser parte de la comunidad de pokemón.
 * Se observa un menú didactico en donde se observa diversas opciones para conocer.
