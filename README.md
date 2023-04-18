@@ -18,19 +18,13 @@ Personas en general, hombres y mujeres
 * En pokenews hay noticias recientes de la franquisia.
 * En pokecard se puede colocar y id o nombre del pokemón que queremos encontrar y por añadidura nos aparece su tipo y peso.
 * En la zona de estadística las principales gráficas sobre pokemón.
-## Lenguaje de programación utilizado
+## Lenguaje de programación utilizado 
+-   [Programación 🖥️](#customization)
     -   [Html](#Html)
     -   [Css](#css)
     -   [JavaScript](#JavaScript)
     -   [API con JSON](#API con JSON)
     -   [Chart.js](#Chart.js)
-  - 🖥️ Programación
-- 🖥HTML
-* 👩🏽‍💻CSS
-* 🟰JavaScript
-* 😄API con JSON
-* 📨JQuery
-* Chart.js
 ## Enlace Página web
 * [Pokemón Universe - GitHub Pages](https://ruthllajaa.github.io/Proyecto-3/)
 * [Pokemón Universe - Replit](https://pokemon-universe.camila-nadinena.repl.co/index.html)
