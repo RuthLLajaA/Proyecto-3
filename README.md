@@ -1,15 +1,17 @@
 # Proyecto - POKEMÓN UNIVERSE💫
 ## Problemática:
-El público al que queremos llegar es a las personas que no tiene conocimiento de este dibujo que tienen ya varios años en las pantallas.
+El público al que queremos llegar es a las personas que no tiene conocimiento de este dibujo que tienen ya varios años en las pantallas, además de aquellos que aveces no tienen acceso a una información presonalizada sobre la franquisia y desean sumar sus conocimientos y disfrutar un poco navegando por las novedades de la página web dirigida a esta franquisia.
 ## Usuarios:
-Personas en general, hombres y mujeres
+Personas en general, hombres y mujeres.
 ## Historia de usuarios:
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Historia%20de%20usuarios/1.png)
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Historia%20de%20usuarios/2.png)
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Historia%20de%20usuarios/3.png)
 ## Objetivos:
-* Garantizar que los usuarios puedan despejar sus dudas y encontrar todo tipo de información sobre pokemon.
+* Garantizar que los usuarios puedan despejar sus dudas y encontrar todo tipo de información sobre pokemón.
 * Conocer la historia y tipos de pokemones que existen.
+* Brindar información actualizada, sobre este mundo con noticias actualizadas.
+* Describir una serie de opciones de juegos que pueden ser accesibles de ubicar para el usuario.
 ## Funcionalidad:
 * En nuestro proyecto lo primero que se puede observar es un apartado de bienvenida y un contenedor de registro para ser parte de la comunidad de pokemón.
 * Se observa un menú didactico en donde se observa diversas opciones para conocer.
