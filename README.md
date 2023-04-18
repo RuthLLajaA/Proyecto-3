@@ -13,11 +13,12 @@ El público al que queremos llegar es a las personas que no tiene conocimiento d
 * Brindar información actualizada, sobre este mundo con noticias actualizadas.
 * Describir una serie de opciones de juegos que pueden ser accesibles de ubicar para el usuario.
 ## Prototipado:
-* Balsamiq prototipado de alta fidelidad
+* Balsamiq prototipado de alta fidelidad (Vista en tablet)
 
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Prototipado/1-removebg-preview.png)![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Prototipado/2-removebg-preview.png)![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Prototipado/3-removebg-preview.png)
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Prototipado/5-removebg-preview.png)![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Prototipado/4-removebg-preview.png)
 * Desktop
+
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Principal-removebg-preview.png)
 ## Funcionalidad:
 * En nuestro proyecto lo primero que se puede observar es un apartado de bienvenida y un contenedor de registro para ser parte de la comunidad de pokemón.
