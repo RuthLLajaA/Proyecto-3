@@ -12,6 +12,9 @@ Personas en general, hombres y mujeres.
 * Conocer la historia y tipos de pokemones que existen.
 * Brindar información actualizada, sobre este mundo con noticias actualizadas.
 * Describir una serie de opciones de juegos que pueden ser accesibles de ubicar para el usuario.
+## Prototipado:
+Balsamiq prototipado de alta fidelidad
+
 ## Funcionalidad:
 * En nuestro proyecto lo primero que se puede observar es un apartado de bienvenida y un contenedor de registro para ser parte de la comunidad de pokemón.
 * Se observa un menú didactico en donde se observa diversas opciones para conocer.
