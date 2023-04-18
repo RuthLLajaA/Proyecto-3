@@ -17,6 +17,8 @@ El público al que queremos llegar es a las personas que no tiene conocimiento d
 
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Prototipado/1-removebg-preview.png)![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Prototipado/2-removebg-preview.png)![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Prototipado/3-removebg-preview.png)
 ![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Prototipado/5-removebg-preview.png)![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Prototipado/4-removebg-preview.png)
+* Desktop
+![Image text](https://github.com/RuthLLajaA/Proyecto-3/blob/main/Principal-removebg-preview.png)
 ## Funcionalidad:
 * En nuestro proyecto lo primero que se puede observar es un apartado de bienvenida y un contenedor de registro para ser parte de la comunidad de pokemón.
 * Se observa un menú didactico en donde se observa diversas opciones para conocer.
