@@ -26,7 +26,7 @@ El público al que queremos llegar es a las personas que no tiene conocimiento d
 * En pokenews hay noticias recientes de la franquisia.
 * En pokecard se puede colocar y id o nombre del pokemón que queremos encontrar y por añadidura nos aparece su tipo y peso.
 * En la zona de estadística las principales gráficas sobre pokemón.
-## Lenguaje de programación utilizado 
+## Conceptos de programación utilizados
 -   [Programación 🖥️](#customization)
     -   [Html](#Html)
     -   [Css](#css)
