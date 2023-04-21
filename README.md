@@ -35,5 +35,5 @@ El público al que queremos llegar es a las personas que no tiene conocimiento d
     -   [Chart.js](#Chart.js)
     -   [Jquery](#jquey) 
 ## Enlace Página web
-* [Pokemón Universe - GitHub Pages](https://ruthllajaa.github.io/Proyecto-3/)
 * [Pokemón Universe - Replit](https://pokemon-universe.camila-nadinena.repl.co/index.html)
+* [Pokemón Universe - GitHub Pages](https://ruthllajaa.github.io/Proyecto-3/)
